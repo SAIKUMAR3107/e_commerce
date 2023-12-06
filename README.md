@@ -1,8 +1,23 @@
 # e_commerce
 
-A new Flutter project.
+A new Online E-commerce appliaction Flutter project.
 
-## Getting Started
+## Resources 
+
+Tools : 
+1) Android Studio.
+   
+Technologies : 
+1) Dart Programming Language.
+2) REST API(Using https://dummyjson.com/docs).
+3) Shared Preference.
+
+UI Design : 
+1) Figma Design (https://www.figma.com/file/TQ3WepXYhFfqpkx8D2SjVJ/Clothing-E-Commerce-App?node-id=33%3A194).
+
+
+
+### Getting Started
 
 This project is a starting point for a Flutter application.
 
