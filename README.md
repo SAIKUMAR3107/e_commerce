@@ -1,6 +1,6 @@
 # e_commerce
 
-A new Online E-commerce appliaction Flutter project.
+A new Flutter project on E-commerce appliaction .
 
 ## Resources 
 
