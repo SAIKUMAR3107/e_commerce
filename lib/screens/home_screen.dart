@@ -235,7 +235,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         //drawer: Drawer(),
         bottomNavigationBar: Container(
-          height: 55,
+          height: 60,
           padding: EdgeInsets.only(bottom: 4),
           margin: EdgeInsets.all(11),
           decoration: BoxDecoration(
@@ -266,6 +266,13 @@ class _HomeScreenState extends State<HomeScreen> {
                             Icons.home_filled,
                             color: Colors.white,
                           )),
+                      Text(
+                        "Home",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                            fontFamily: "sans-serif-condensed-light"),
+                      )
                     ],
                   )),
               InkWell(
@@ -290,6 +297,13 @@ class _HomeScreenState extends State<HomeScreen> {
                             Icons.shopping_cart,
                             color: Colors.white,
                           )),
+                      Text(
+                        "Cart",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                            fontFamily: "sans-serif-condensed-light"),
+                      )
                     ],
                   )),
               InkWell(
@@ -314,6 +328,13 @@ class _HomeScreenState extends State<HomeScreen> {
                             Icons.person,
                             color: Colors.white,
                           )),
+                      Text(
+                        "Profile",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                            fontFamily: "sans-serif-condensed-light"),
+                      )
                     ],
                   )),
               InkWell(
@@ -338,6 +359,13 @@ class _HomeScreenState extends State<HomeScreen> {
                             Icons.shopping_cart_checkout,
                             color: Colors.white,
                           )),
+                      Text(
+                        "Checkout",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                            fontFamily: "sans-serif-condensed-light"),
+                      ),
                     ],
                   ))
             ],
